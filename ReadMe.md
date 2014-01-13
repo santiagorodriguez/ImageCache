@@ -1,5 +1,11 @@
 ## ImageCache
 
+##### Fork designed for custom connection and caching add
+
+    -(void)imageForUrl:(NSString*)urlString cached: (ImageCachedBlock)cachedImage notCached:(ImageNotCachedBlock)notCachedImage;
+
+Images are added to cache keyed by urlString.
+
 ##### A basic image cache system for storing images in memory and on disk
 
 Usage: 
@@ -27,6 +33,7 @@ Usage:
 	- (void)removeAllImagesInMemory;
 	
 	- (void)removeOldImages;
+	
 	
 ##### Use with cocoapods
 

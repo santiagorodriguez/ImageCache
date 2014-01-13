@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name     = 'ImageCache'
+  s.name     = 'ImageCache+CustomConnection'
   s.version  = '0.0.1'
-  s.summary  = 'Basic image cache. For caching image into memory or disk.'
-  s.homepage = 'https://github.com/tonyzonghui/ImageCache.git'
+  s.summary  = 'Fork from basic image cache. For caching image into memory or disk and customizing connection.'
+  s.homepage = 'https://github.com/santiagorodriguez/ImageCache.git'
   s.license  = {
      :type => 'MIT',
      :text => <<-LICENSE
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   }
   
   s.platform = :ios, '5.0'
-  s.author   = { 'Zhang Zonghui' => 'zhangzonghui01@gmail.com' }
-  s.source   = { :git => 'https://github.com/tonyzonghui/ImageCache.git', :tag => '0.0.1' }
+  s.author   = { 'Santiago Rodriguez' => 'santiagorodriguezsordo@gmail.com' }
+  s.source   = { :git => 'https://github.com/santiagorodriguez/ImageCache.git', :tag => '0.0.1' }
   s.source_files = '*.{h,m}'  
   
 end
